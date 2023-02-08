@@ -20,9 +20,14 @@ System.out.println((a < b) ? a : b);
 double[] a; // объявление массива, содержащего действительные числа
 int[] b = new int[20]; // объявление и инициализация массива, содержащего 20 целых чисел
 char[] c = {'c', 'a', 't'}; // объявление массива, содержащего символы и его заполнение  
-                                                                    
+                                                                   
  вывести массив:                                                             
  import java.util.Arrays;
  System.out.println(Arrays.toString(array));
- 
- 
+                                                                   Arrays.sort(a)
+Arrays.sort(a) отсортирует массив a в порядке возрастания значений элементов. Если нужно отсортировать в другом порядке, воспользуйтесь методом Arrays.sort(a, Comparator c), где Comparator c — экземпляр класса Comparator, который позволяет сравнивать два соседних элемента.
+Пример:
+int[] myArray = new int[] { 6, 4, 3, 5 };
+Arrays.sort( myArray );
+System.out.println( Arrays.toString( myArray ) );
+
