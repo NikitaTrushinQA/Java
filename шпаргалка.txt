@@ -16,3 +16,13 @@ int a = sc.nextInt();
 int b = sc.nextInt();
 System.out.println((a < b) ? a : b);
                                                                           
+                                                                    Массивы
+double[] a; // объявление массива, содержащего действительные числа
+int[] b = new int[20]; // объявление и инициализация массива, содержащего 20 целых чисел
+char[] c = {'c', 'a', 't'}; // объявление массива, содержащего символы и его заполнение  
+                                                                    
+ вывести массив:                                                             
+ import java.util.Arrays;
+ System.out.println(Arrays.toString(array));
+ 
+ 
